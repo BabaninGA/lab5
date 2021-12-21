@@ -4,6 +4,7 @@
 import java.util.InputMismatchException;
 import java.util.Scanner;
 import java.util.ArrayList;
+import java.util.LinkedList;
 
 public class Taks2 {
     public static void main(String[] args) {
@@ -27,7 +28,7 @@ public class Taks2 {
                 System.out.println("Элементами списка в данной программе могут быть только целые числа");
                 System.exit(1);
             }
-            ArrayList<Integer> AlistNew = new ArrayList<>();
+            LinkedList<Integer> AlistNew = new LinkedList<>();
             AlistNew.addAll(Alist);
             int X=0;
             try {
