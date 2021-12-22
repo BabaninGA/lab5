@@ -34,6 +34,7 @@ public class Taks2 {
             try {
                 System.out.println("Введите значение. Все элементы заданного Вами списка, равные этому значению, будут удалены");
                 X = in.nextInt();
+                in.close();
             } catch (InputMismatchException e) {
                 System.out.println("Элементы списка в данной программе могут сравниваться только с целым числом");
                 System.exit(1);
